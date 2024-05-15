@@ -4,7 +4,7 @@
 FileBrowser es un navegador de archivos muy potente a traves de un interfaz web que permite crear, compartir, subir archivos y carpetas a tu red local.
 
 ### Instalación
-Para instalar vamos a usar la imagen de hurlenko
+Para instalar vamos a usar la imagen de `hurlenko/filebrowser`
 
 ### Puertos
 * 8080 por defecto 
@@ -12,8 +12,8 @@ Para instalar vamos a usar la imagen de hurlenko
 
 ### Volumenes
 El contenedor utiliza dos volumenes: 
-1. data donde vamos a exponer lo que queremos compartir de nuestra máquina
-2. config donde vamos a guardar la base de datos que utiliza filebrowser
+1. `data` donde vamos a exponer lo que queremos compartir de nuestra máquina
+2. `config` donde vamos a guardar la base de datos que utiliza filebrowser
 
 ### Creación del Contenedor
 El archivo docker-compose.yml quedaría así:
@@ -35,9 +35,11 @@ services:
     volumes:
       - /home/user/data:/data
       - ./fb-config:/config
+
 ```
 
 ### Usuario por defecto
-El usuario y contraseña por defecto son admin
+El usuario y contraseña por defecto son `admin`
 
-Para acceder IP:8200
+Para acceder:
+* http://IP:8200
