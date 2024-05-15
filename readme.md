@@ -7,13 +7,13 @@ FileBrowser es un navegador de archivos muy potente a traves de un interfaz web 
 Para instalar vamos a usar la imagen de hurlenko
 
 ### Puertos
-8080 por defecto 
-8200 desde el navegador
+* 8080 por defecto 
+* 8200 desde el navegador
 
 ### Volumenes
 El contenedor utiliza dos volumenes: 
 1 data donde vamos a exponer lo que queremos compartir de nuestra máquina
-1 config donde vamos a guardar la base de datos que utiliza filebrowser
+2 config donde vamos a guardar la base de datos que utiliza filebrowser
 
 ### Creación del Contenedor
 El archivo docker-compose.yml quedaría así:
