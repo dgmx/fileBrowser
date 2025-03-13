@@ -3,6 +3,8 @@
 ### Introduccion
 FileBrowser es un navegador de archivos muy potente a traves de un interfaz web que permite crear, compartir, subir archivos y carpetas a tu red local.
 
+![FileBrowser](https://user-images.githubusercontent.com/5447088/50716739-ebd26700-107a-11e9-9817-14230c53efd2.gif)
+
 ### Instalación
 Para instalar vamos a usar la imagen de `hurlenko/filebrowser`
 
